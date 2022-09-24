@@ -1,1 +1,1 @@
-# rsschool-cv
+https://dashadmdv.github.io/rsschool-cv/cv
