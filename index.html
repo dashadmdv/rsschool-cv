@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Darya Dziamidava</h1>
+    <hr>
+    <p><b>Junior Frontend Developer</b></p>
+
+    <h2>Contact information</h2>
+    <hr>
+    <p><span><b>Phone:</b></span> +375-(29)-378-65-06</p>
+    <p><span><b>Email:</b></span> daassshhhhaaaaadmdv@gmail.com</p>
+    <p><span><b>Telegram:</b></span> @dashadmdv</p>
+
+    <h2>About myself</h2>
+    <hr>
+    <p>Through all my life I have been very ambitious and persistent. Starting from school olympiads my hard work has
+        led me
+        Belarusian State University of Informatics and Radioelectronics. And even while studying at one of the best
+        belarusian
+        IT universities I am still eager of something new and I always find a subject for self-studying.</p>
+    <p>I'm very passionate about Frontend Development. It has all started when I was at school. I had taken some short
+        HTML&amp;CSS course and after that I understood that I like
+        that sort of activity. I like Frontend because it amazes me how I can create things people will use out of
+        nothing.
+        And I believe that my technical and interpersonal skills, my love to self-studying will help me to create
+        something
+        even
+        more amazing.</p>
+
+    <h2>Skills</h2>
+    <hr>
+    <ul>
+        <li>C++</li>
+        <li>QT Creator</li>
+        <li>Python</li>
+        <li>HTML5, CSS3</li>
+        <li>Javascript</li>
+        <li>Git, Github</li>
+        <li>VSCode</li>
+    </ul>
+
+    <h2>Code Example</h2>
+    <hr>
+    <p><span><b>Persistent Bugger KATA from Codewars:</b></span> write a function, persistence, that takes in a positive
+        parameter num and returns its multiplicative persistence, which
+        is the number of times you must multiply the digits in num until you reach a single digit.</p>
+
+    <div>
+        <code>
+            int persistence(long long n){<br>
+             if (n / 10 == 0) {<br>
+               return 0;<br>
+             }<br>
+            <br>
+              long long next = 1;<br>
+              int counter = 1;<br>
+              while (n) {<br>
+                next *= n % 10;<br>
+                n /= 10;<br>
+              }<br>
+            <br>
+              return counter + persistence(next);<br>
+            }<br>
+        </code>
+    </div>
+
+    <h2>Education</h2>
+    <hr>
+    <ul>
+        <li>Belarusian State University of Informatics and Radioelectronics. Software Engineer</li>
+        <li><a href="https://javarush.ru/quests/QUEST_HARVARD_CS50">Harvard. CS50</a></li>
+        <li><a href="https://wayup.in/library/course10">WAYUP. HTML&amp;CSS</a></li>
+        <li><a href="https://rs.school/js/">Rolling Stones School. JavaScript/Front-end. Stage 1</a> (in progress)</li>
+    </ul>
+
+    <h2>Languages</h2>
+    <hr>
+    <ul>
+        <li>Russian - Native</li>
+        <li>English - Intermediate(<b>B1</b>) (according to EPAM Training Center Testing System)</li>
+    </ul>
+    <img src="https://sun9-11.userapi.com/impg/DlgS02HUJvh00hMHJ9rTU9PF42Bpew3ovQT89A/bjg2zJDCM4g.jpg?size=729x123&quality=96&sign=20b3ad182e95a7ead2afa2cc79a05c63&type=album"
+        alt="English level B1">
+</body>
+
+</html>
